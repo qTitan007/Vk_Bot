@@ -186,7 +186,7 @@ def vk_stat(group_id):
     for i in response[0]['reach']['age']:
         ages[i['value']] = i['count']
 
-    cities = []
+    cities = list()
     for i in response[0]['reach']['cities']:
         cities.append(i['name'])
 
