@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for i in data[2:]%}
+<div>
+    <h2 class='h_{{i}}'>{{i}}</h2>
+    <table>
+		{% for j in data[i]%}
+		<tr>
+		  <td class='td1_{{i}}'>{{j}}</td>
+		  <td class='td2_{{i}}'>{{data[i][j]}}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+{% endfor %}
+
+</div>
+
+{% endblock %}
