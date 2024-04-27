@@ -166,8 +166,9 @@ def db_upload():
         session.commit()
 
 
-@app.route('/vk_stat/<int:group_id>')
-def vk_stat(group_id):
+@app.route('/vk_stat/')
+def vk_stat():
+    group_id = config.club_id
     try:
         vk_session = vk_api.VkApi(token=config.token)
         vk = vk_session.get_api()
