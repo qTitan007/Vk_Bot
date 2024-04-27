@@ -1,0 +1,52 @@
+h2 {
+	text-align: center;
+}
+
+table {
+	table-layout: fixed;
+    width: 70%;
+	border-collapse: collapse;
+	border: 2px solid;
+	margin-bottom: 20px;
+	margin: auto;
+}
+
+td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.h_Activities{
+	color: #8B008B;
+}
+
+.td1_Activities{
+	background-color: #DA70D6;
+}
+.td2_Activities{
+	background-color: #EE82EE;
+}
+
+.h_Ages{
+	color: #008B8B;
+}
+
+.td1_Ages{
+	background-color: #66CDAA;
+}
+.td2_Ages{
+	background-color: #7FFFD4;
+}
+
+.h_Cities{
+	color: #C71585;
+}
+
+.td1_Cities{
+	background-color: #FFB6C1;
+	border: 0px;
+}
+.td2_Cities{
+	background-color: #FFB6C1;
+	border: 0px;
+}
